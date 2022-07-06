@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #181822;
+    height: 100vh;
+    overflow: hidden;
+}
+section{
+    display: flex;
+    width: 70% !important;
+    height: 90% !important;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 25px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
