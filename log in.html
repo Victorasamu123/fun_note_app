@@ -19,17 +19,19 @@
             <h2>Welcomme to myNote</h2>
             <div class="email-input">
             <label for="email">Email Address</label> <br>
-            <input type="email" placeholder="Enter email Address">
+            <input type="email" placeholder="Enter email Address" id="emailadd">
             </div>
             <div class="password-input">
             <label for="password">Password</label> <br>
-            <input type="password" placeholder="Enter password at least 8 character">
+            <input type="password" placeholder="Enter password at least 8 character" id="password">
             </div>
-            <button class="sign-in-button">log in</button>
+            <div id="warning"></div>
+            <button class="sign-in-button" onclick="logInToNextPage()">log in</button>
             <div class="confirmation">
                 Do not  have an account?<a href="sign up.html">sign up</a>
             </div>
         </div>
     </section>
+    <script src="log in.js"></script>
 </body>
 </html>
