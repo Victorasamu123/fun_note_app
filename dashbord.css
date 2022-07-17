@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: rgb(24,24,34);
+    overflow-x: hidden;
+}
+section{
+    display: flex;
+}
+.first-half-body{
+    margin-top: 20px;
+    margin-left: 50px;
+    height:580px;
+    width: 5%;
+    background-color:rgb(28,29,61) ;
+    border-radius: 10px;
+}
